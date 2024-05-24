@@ -70,3 +70,5 @@ console.log('Initial State:', store.getState());
 store.dispatch(add()); // State: { count: 1 }
 store.dispatch(add()); // State: { count: 2 }
 
+// Dispatch SUBTRACT action
+store.dispatch(subtract()); // State: { count: 1 }
