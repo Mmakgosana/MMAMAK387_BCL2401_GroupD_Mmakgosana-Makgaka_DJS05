@@ -62,3 +62,6 @@ const store = createStore(reducer);
 store.subscribe(() => {
     console.log('State:', store.getState());
   });
+
+  // Log the initial state
+console.log('Initial State:', store.getState());
