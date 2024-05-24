@@ -57,3 +57,8 @@ const createStore = (reducer) => {
 
     // Initialize store
 const store = createStore(reducer);
+
+// Subscribe to store changes
+store.subscribe(() => {
+    console.log('State:', store.getState());
+  });
