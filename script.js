@@ -72,3 +72,6 @@ store.dispatch(add()); // State: { count: 2 }
 
 // Dispatch SUBTRACT action
 store.dispatch(subtract()); // State: { count: 1 }
+
+// Dispatch RESET action
+store.dispatch(reset()); // State: { count: 0 }
