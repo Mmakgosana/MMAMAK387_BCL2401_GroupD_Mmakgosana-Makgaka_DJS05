@@ -65,3 +65,8 @@ store.subscribe(() => {
 
   // Log the initial state
 console.log('Initial State:', store.getState());
+
+// Dispatch ADD actions to set state to count: 2
+store.dispatch(add()); // State: { count: 1 }
+store.dispatch(add()); // State: { count: 2 }
+
