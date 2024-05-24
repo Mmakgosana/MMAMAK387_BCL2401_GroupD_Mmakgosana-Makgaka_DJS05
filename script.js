@@ -54,3 +54,6 @@ const createStore = (reducer) => {
         listeners.splice(index, 1);
       };
     }; 
+
+    // Initialize store
+const store = createStore(reducer);
